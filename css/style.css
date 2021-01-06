@@ -23,7 +23,7 @@ h3{
     color: #363958;
     font-weight: 500;
 }
-.full-web{
+.full-header{
     width: 100%;
 }
 .main-web{
@@ -45,6 +45,8 @@ h3{
 .menu li a{
     color: black;
 }
+
+/* CSS start for header*/
 
 .header{
     height: 500px;
@@ -76,9 +78,48 @@ h3{
     padding: 10px 40px;
     border-radius: 5px;
 }
-
 .half-width img{
     width: 100%;
     margin-top: -80px; 
 }
+.full-project{
+    width: 100%;
+    background-color: #F8F9FC;
+    height: 654px;
+    margin: 100px 0px;
 
+}
+.leatest h3{
+    padding: 50px;
+    text-align: center;
+}
+.project-gallery{
+    width: 31%;
+    box-shadow: 2px 2px 20px #ECEDF0;
+    box-sizing: border-box;
+    float: left;
+    margin: 1%;
+    border-radius: 15px;
+    background-color: white;
+    height: 60%;
+}
+.project-gallery img{
+    width: 100%;
+}
+.img-txt{
+    padding: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #363958;
+}
+.img-txt h4{
+    font-size: 20px;
+    padding: 15px 0px;
+}
+.img-txt p{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 10px 0px;
+    color: #6C6C6C;
+}
+}
