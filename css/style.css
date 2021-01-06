@@ -142,13 +142,13 @@ section {
 }
 .why-me-heading{
     border: 2px solid #979797;
-    width: 50%;
+    width: 35%;
     text-align: center;
     margin: auto;
-    padding: 15px 0px;
+    padding: 10px 0px;
 }
 .why-me-heading h3{
-    line-height: 21px;
+    line-height: 38px;
 }
 .why-me-number{
     text-align: center;
@@ -167,7 +167,7 @@ section {
     border-left: 2px solid #979797;
     
 }
-.first-border{
+#first-border{
     border-left: none;
 }
 /* CSS start for work*/
