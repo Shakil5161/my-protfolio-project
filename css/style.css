@@ -23,8 +23,9 @@ h3{
     color: #363958;
     font-weight: 500;
 }
-.full-header{
+.full-web{
     width: 100%;
+    margin-bottom: 100px;
 }
 .main-web{
     width: 90%;
@@ -82,12 +83,19 @@ h3{
     width: 100%;
     margin-top: -80px; 
 }
+
+
+/* CSS start for Project*/
+
 .full-project{
     width: 100%;
     background-color: #F8F9FC;
-    height: 654px;
-    margin: 100px 0px;
+    
 
+}
+.leatest{
+    height: 654px;
+    margin: auto;
 }
 .leatest h3{
     padding: 50px;
@@ -122,4 +130,23 @@ h3{
     padding: 10px 0px;
     color: #6C6C6C;
 }
+
+.work{
+    background-image: url("../img/Group_33094_1.png") ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 100px;
+}
+.work h3{
+    padding: 50px;
+    color: white;
+    display: inline-block;
+}
+.work a{
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    float: right;
+    margin: 60px;
 }
