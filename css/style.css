@@ -12,3 +12,73 @@ a{
 ul,ol{
     list-style: none;
 }
+body{
+    font-family: 'Bebas Neue', cursive;  
+}
+span{
+    color: #FF8367;
+}
+h3{
+    font-size: 48px;
+    color: #363958;
+    font-weight: 500;
+}
+.full-web{
+    width: 100%;
+}
+.main-web{
+    width: 90%;
+    margin: auto;
+}
+
+/* CSS start for menu*/
+.menu{
+    height: 100px;
+}
+.menu li{
+    display: inline-block;
+    float: right;
+    padding: 30px 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.menu li a{
+    color: black;
+}
+
+.header{
+    height: 500px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+}
+.right-element{
+    float: right;
+}
+.half-width h1{
+    font-size: 80px;
+    color: #363958;
+    font-weight: 500;
+    line-height: 90px;
+    margin-top: 50px;
+}
+.half-width P{
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+    margin: 30px 0px;
+    line-height: 27px;
+    
+}
+.half-width a{
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.half-width img{
+    width: 100%;
+    margin-top: -80px; 
+}
+
