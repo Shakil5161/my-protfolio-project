@@ -81,7 +81,7 @@ h3{
 }
 .half-width img{
     width: 100%;
-    margin-top: -80px; 
+    margin-top: -60px; 
 }
 
 
@@ -90,8 +90,18 @@ h3{
 .full-project{
     width: 100%;
     background-color: #F8F9FC;
-    
+    margin: 150px 0px;
+    padding: 55px 0px;
+}
 
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+section {
+    display: block;
 }
 .leatest{
     height: 654px;
@@ -130,7 +140,37 @@ h3{
     padding: 10px 0px;
     color: #6C6C6C;
 }
-
+.why-me-heading{
+    border: 2px solid #979797;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 15px 0px;
+}
+.why-me-heading h3{
+    line-height: 21px;
+}
+.why-me-number{
+    text-align: center;
+    padding: 100px 0px 20px 0px;
+}
+.why-me-down-txt{
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+    padding: 91px;
+    line-height: 27px;
+    text-align: center;
+}
+.quarter{
+    width: 24%;
+    float: left;
+    border-left: 2px solid #979797;
+    
+}
+.first-border{
+    border-left: none;
+}
+/* CSS start for work*/
 .work{
     background-image: url("../img/Group_33094_1.png") ;
     background-repeat: no-repeat;
@@ -149,4 +189,22 @@ h3{
     border-radius: 5px;
     float: right;
     margin: 60px;
+}
+
+.footer{
+    text-align: center;
+}
+.footer h3{
+    font-size: 16px;
+    color: #696871;
+}
+.footer p{
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    color: #363958;
+    padding: 15px;
+}
+.footer a img{
+    width: 30px;
+    padding: 10px;
 }
